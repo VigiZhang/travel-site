@@ -3,7 +3,9 @@ var $ = require("jquery");
 var MobileMenu = require('./modules/MobileMenu');
 // import RevealOnScroll from './modules/RevealOnScroll';
 var RevealOnScroll = require('./modules/RevealOnScroll');
+var StickyHeader = require('./modules/StickyHeader');
 
 var mobileMenu = new MobileMenu();
 new RevealOnScroll($(".feature-item"), "85%");
 new RevealOnScroll($(".testimonial"), "60%");
+var stickyHeader = new StickyHeader();
