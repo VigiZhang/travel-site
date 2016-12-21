@@ -11126,6 +11126,7 @@
 
 	class StickyHeader {
 		constructor() {
+			this.lazyImages = $(".lazyload");
 			this.siteHeader = $(".site-header");
 			this.headerTriggerElement = $(".large-hero__title");
 			this.createHeaderWaypoint();
@@ -11133,6 +11134,13 @@
 			this.headerLinks = $(".primary-nav a");
 			this.createPageSectionWaypoints();
 			this.addSmoothScrolling();
+			this.refreshWaypoints();
+		}
+
+		refreshWaypoints() {
+			this.lazyImages.load(function() {
+				Waypoint.refreshAll();
+			});
 		}
 
 		addSmoothScrolling() {
