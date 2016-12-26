@@ -7,7 +7,7 @@ module.exports = {
 		path: "./app/temp/scripts", 
 		filename: "[name].js"
 	}, 
-	modules: {
+	module: {
 		loaders: [
 			{
 				loader: 'babel', 

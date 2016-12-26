@@ -21,5 +21,5 @@ class MobileMenu {
 	}
 }
 
-// export default MobileMenu;
-module.exports = MobileMenu;
+export default MobileMenu;
+// module.exports = MobileMenu;

@@ -30,5 +30,5 @@ class RevealOnScroll {
 
 }
 
-// export default RevealOnScroll;
-module.exports = RevealOnScroll;
+export default RevealOnScroll;
+// module.exports = RevealOnScroll;

@@ -1,8 +1,8 @@
 var $ = require("jquery");
-// import MobileMenu from './modules/MobileMenu';
-var MobileMenu = require('./modules/MobileMenu');
-// import RevealOnScroll from './modules/RevealOnScroll';
-var RevealOnScroll = require('./modules/RevealOnScroll');
+import MobileMenu from './modules/MobileMenu';
+// var MobileMenu = require('./modules/MobileMenu');
+import RevealOnScroll from './modules/RevealOnScroll';
+// var RevealOnScroll = require('./modules/RevealOnScroll');
 var StickyHeader = require('./modules/StickyHeader');
 var Modal = require('./modules/Modal');
 
